@@ -26,3 +26,22 @@ div{
     border-radius: 15px 0px 15px 0px;
     box-shadow: 2px 2px 5px #F2ECBE;
 }
+ul li a:hover{
+    margin-left: 10px;
+    color: #000000;
+    background-color: #a86500;
+    box-shadow: 10px 10px 20px #c7bff7;
+    transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+ul li a{
+    height: 60px;
+    background-color: #f1ad47;
+    display: block;
+    border-left: 10px solid #fd5353;
+    border-right: 5px solid #faf25e;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fafbfc;
+}
